@@ -79,9 +79,11 @@ g++ File.cpp -o filemanager
 
 Encrypt
 
+```bash
 Input  : input.txt
 Output : encrypted.txt
 Key    : mykey123
+```
 
 Decrypt
 
