@@ -91,5 +91,7 @@ Use the same key to restore original contents.
 
 ## Project Structure
 
+````bash
 File.cpp      → Source code
 README.md     → Documentation
+````
