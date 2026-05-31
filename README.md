@@ -1,5 +1,5 @@
-# 🗄️ File Manager with Encryption / Decryption  
-A command-line tool that allows you to create, read, edit, delete, and list files — along with encrypting and decrypting them using an extended Caesar cipher.  
+# 🗄️ File Manager with Encryption / Decryption
+A command-line tool that allows you to create, read, edit, delete, and list files — along with encrypting and decrypting them using an extended Caesar cipher.
 Built entirely in C++ using only standard libraries.
 
 ---
@@ -7,21 +7,21 @@ Built entirely in C++ using only standard libraries.
 ## 🚀 Features
 
 ### 📁 File Management
-- Create new text files  
-- Read file contents  
-- Append text to existing files  
-- Delete files  
+- Create new text files
+- Read file contents
+- Append text to existing files
+- Delete files
 - List files (Windows uses `dir`, Linux uses `ls`)
 
 ### 🔐 Encryption & Decryption
-- Extended Caesar Cipher implementation  
-- Key-based dynamic shifting  
+- Extended Caesar Cipher implementation
+- Key-based dynamic shifting
 - Supports:
-  - Lowercase letters  
-  - Uppercase letters  
-  - Digits  
-  - Printable ASCII characters (33–126)  
-- Whitespace remains untouched  
+  - Lowercase letters
+  - Uppercase letters
+  - Digits
+  - Printable ASCII characters (33–126)
+- Whitespace remains untouched
 - Wrap-around logic for every character range
 
 ---
@@ -37,7 +37,7 @@ No frameworks or external dependencies.
 ## 📦 How It Works
 
 ### **1. File Operations Menu**
-Users can:  
+Users can:
 - Create File
 - Read File
 - Edit File
@@ -50,11 +50,11 @@ The shift value is derived from the key:
 
 
 Character handling:
-- Alphabet → Rotated within alphabet  
-- Numbers → Rotated within 0–9  
-- Symbols → Rotated within ASCII 33–126  
-- Whitespace → Preserved  
-- Byte-by-byte processing  
+- Alphabet → Rotated within alphabet
+- Numbers → Rotated within 0–9
+- Symbols → Rotated within ASCII 33–126
+- Whitespace → Preserved
+- Byte-by-byte processing
 
 ---
 
